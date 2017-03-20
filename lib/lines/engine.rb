@@ -1,6 +1,5 @@
 module Lines
   class Engine < ::Rails::Engine
-    isolate_namespace Lines
 
     config.autoload_paths += Dir["#{config.root}/lib/**/"]
 
